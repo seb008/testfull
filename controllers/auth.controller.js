@@ -25,6 +25,7 @@ const createToken = (id) => {
     })
 }
 
+
 // se connecter
 module.exports.signIn = async (req, res) =>{
     const {email, password} = req.body

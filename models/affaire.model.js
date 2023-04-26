@@ -17,7 +17,13 @@ const AffaireSchema =new mongoose.Schema(
         },
         participant:{
             type:[String],
-            require: true
+        },
+        paragraphe:{
+            type:[String],
+        },
+        prixvendue:{
+            type:Number,
+            float: true,
         },
     },
     {

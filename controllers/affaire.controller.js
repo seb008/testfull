@@ -13,7 +13,7 @@ module.exports.createAffaire= async (req,res)=>{
     const newAffaire = new AffaireModel({
         creatId: req.body.creatId,
         nomAffaire: req.body.nomAffaire,
-        participant: [],
+        
     });
 
     try {
